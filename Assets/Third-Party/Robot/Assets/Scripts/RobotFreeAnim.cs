@@ -7,6 +7,7 @@ public class RobotFreeAnim : MonoBehaviour {
 	Vector3 rot = Vector3.zero;
 	float rotSpeed = 40f;
 	Animator anim;
+	public float startTime = 10000;
 
 	// Use this for initialization
 	void Awake()
@@ -20,20 +21,29 @@ public class RobotFreeAnim : MonoBehaviour {
 	{
 		CheckKey();
 		gameObject.transform.eulerAngles = rot;
-	}
 
-	void CheckKey()
+        if (rotSpeed > 0 && !anim.GetBool("Open_Anim")) 
+        {
+            anim.SetBool("Walk_Anim", true);
+        }
+        else
+        {
+            anim.SetBool("Walk_Anim", false);
+        }
+        startTime -= Time.deltaTime;
+       
+
+		if (startTime < 0) {
+			anim.SetBool("Open_Anim", false);
+		}
+    }
+
+    void CheckKey()
 	{
 		// Walk
-		if (Input.GetKey(KeyCode.W))
-		{
-			anim.SetBool("Walk_Anim", true);
-		}
-		else if (Input.GetKeyUp(KeyCode.W))
-		{
-			anim.SetBool("Walk_Anim", false);
-		}
-
+		
+		
+/*
 		// Rotate Left
 		if (Input.GetKey(KeyCode.A))
 		{
@@ -71,6 +81,7 @@ public class RobotFreeAnim : MonoBehaviour {
 				anim.SetBool("Open_Anim", false);
 			}
 		}
+*/
 	}
 
 }
