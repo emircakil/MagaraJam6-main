@@ -38,10 +38,6 @@ public class ShowUI : MonoBehaviour
             }
         }
 
-        Debug.Log(itHasKey);
-        
-        
-
     }
 
 }
