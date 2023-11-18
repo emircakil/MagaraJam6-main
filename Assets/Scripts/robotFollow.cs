@@ -9,14 +9,13 @@ public class robotFollow : MonoBehaviour
     [SerializeField] NavMeshAgent robot;
     [SerializeField] Transform player;
     [SerializeField] Animator anim;
-    Rigidbody rb;
     float speed;
     float timer = 10f;
 
 
     void Awake()
     {
-        rb = GetComponent<Rigidbody>();
+ 
         anim = GetComponent<Animator>();
      
         
@@ -25,7 +24,7 @@ public class robotFollow : MonoBehaviour
 
     void Update()
     {
-        speed = Vector3.Magnitude(rb.velocity);
+  
         robot.SetDestination(player.position);
             
 
