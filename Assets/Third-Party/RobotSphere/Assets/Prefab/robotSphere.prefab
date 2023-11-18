@@ -2609,6 +2609,7 @@ GameObject:
   - component: {fileID: 4431084402279646}
   - component: {fileID: 114253073084258262}
   - component: {fileID: 95320324289322388}
+  - component: {fileID: 8924717824031195086}
   m_Layer: 0
   m_Name: robotSphere
   m_TagString: Untagged
@@ -2665,6 +2666,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8924717824031195086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528915638184230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 695138a1a4d77d8458e54a09d9cecea9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robot: {fileID: 0}
+  player: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!1 &1533244445735912
 GameObject:
   m_ObjectHideFlags: 0
