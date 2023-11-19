@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: a9d4fb8ba763fef45b961a3893384fc2, type: 2}
 --- !u!1001 &3842641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -190,6 +190,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (83)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &3842642 stripped
@@ -198,6 +203,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3842641}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4633965
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6831317976811719836, guid: 9eb3f8d14bb33a24dbe3063ccd08ad98,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831317976811719836, guid: 9eb3f8d14bb33a24dbe3063ccd08ad98,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 212.77275
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831317976811719836, guid: 9eb3f8d14bb33a24dbe3063ccd08ad98,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 43.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831317976811719836, guid: 9eb3f8d14bb33a24dbe3063ccd08ad98,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 193.12335
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831317976811719836, guid: 9eb3f8d14bb33a24dbe3063ccd08ad98,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.72170943
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831317976811719836, guid: 9eb3f8d14bb33a24dbe3063ccd08ad98,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831317976811719836, guid: 9eb3f8d14bb33a24dbe3063ccd08ad98,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6921962
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831317976811719836, guid: 9eb3f8d14bb33a24dbe3063ccd08ad98,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831317976811719836, guid: 9eb3f8d14bb33a24dbe3063ccd08ad98,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831317976811719836, guid: 9eb3f8d14bb33a24dbe3063ccd08ad98,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 87.608
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831317976811719836, guid: 9eb3f8d14bb33a24dbe3063ccd08ad98,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831317976811995790, guid: 9eb3f8d14bb33a24dbe3063ccd08ad98,
+        type: 3}
+      propertyPath: m_Name
+      value: art_5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9eb3f8d14bb33a24dbe3063ccd08ad98, type: 3}
 --- !u!1001 &20627437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -280,6 +354,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Bamboolamp_Set1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3, type: 3}
 --- !u!4 &20627438 stripped
@@ -354,6 +433,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 292d96ecbec6cde47a83c1100b28214f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 292d96ecbec6cde47a83c1100b28214f, type: 3}
@@ -430,6 +514,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill6 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 28d63cac84da5004cb3cf818cc2094d0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28d63cac84da5004cb3cf818cc2094d0, type: 3}
 --- !u!4 &40785609 stripped
@@ -504,6 +593,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -600,6 +694,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 29235bcbfe366ed46bd2f40c40560b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29235bcbfe366ed46bd2f40c40560b4e, type: 3}
 --- !u!4 &47144383 stripped
@@ -674,6 +773,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -750,6 +854,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (58)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &67304455 stripped
@@ -824,6 +933,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -900,6 +1014,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &92764108 stripped
@@ -975,6 +1094,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (95)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &93786512 stripped
@@ -1049,6 +1173,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -1145,6 +1274,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile5 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: db358dbf689d77849beffbcec07e9462,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db358dbf689d77849beffbcec07e9462, type: 3}
 --- !u!4 &119639412 stripped
@@ -1219,6 +1353,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -1295,6 +1434,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (43)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &130244620 stripped
@@ -1369,6 +1513,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -1445,6 +1594,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (114)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &130617290 stripped
@@ -1519,6 +1673,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -1595,6 +1754,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &165686190 stripped
@@ -1669,6 +1833,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -1745,6 +1914,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (91)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &219013318 stripped
@@ -1820,6 +1994,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (61)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &236418926 stripped
@@ -1894,6 +2073,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -1974,6 +2158,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_TreeSet1_Pile3 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 63604ffa829797541a1b80fbdf2dd245,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63604ffa829797541a1b80fbdf2dd245, type: 3}
@@ -2065,6 +2254,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Bamboolamp_Set1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3, type: 3}
 --- !u!4 &292493159 stripped
@@ -2140,6 +2334,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (94)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &341433892 stripped
@@ -2214,6 +2413,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -2310,6 +2514,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile5 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: db358dbf689d77849beffbcec07e9462,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db358dbf689d77849beffbcec07e9462, type: 3}
 --- !u!4 &353924381 stripped
@@ -2384,6 +2593,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -2460,6 +2674,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &405681816 stripped
@@ -2535,6 +2754,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill6
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 28d63cac84da5004cb3cf818cc2094d0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28d63cac84da5004cb3cf818cc2094d0, type: 3}
 --- !u!4 &416811943 stripped
@@ -2609,6 +2833,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_FireFX (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781153407400491, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781153833532114, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781154056776011, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9753f860076a70942b7417f548ddde2a, type: 3}
@@ -2773,6 +3012,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (88)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &442991739 stripped
@@ -2847,6 +3091,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -2928,6 +3177,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile3
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 63604ffa829797541a1b80fbdf2dd245,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63604ffa829797541a1b80fbdf2dd245, type: 3}
 --- !u!4 &475235382 stripped
@@ -3008,6 +3262,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 63604ffa829797541a1b80fbdf2dd245,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63604ffa829797541a1b80fbdf2dd245, type: 3}
 --- !u!4 &506361853 stripped
@@ -3082,6 +3341,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -3177,6 +3441,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_TreeSet1_Pile5 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: db358dbf689d77849beffbcec07e9462,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db358dbf689d77849beffbcec07e9462, type: 3}
@@ -3279,7 +3548,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &509864353
 MonoBehaviour:
@@ -3368,6 +3637,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (70)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &515681838 stripped
@@ -3442,6 +3716,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -3518,6 +3797,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (74)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &518342728 stripped
@@ -3592,6 +3876,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -3688,6 +3977,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile5 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: db358dbf689d77849beffbcec07e9462,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db358dbf689d77849beffbcec07e9462, type: 3}
 --- !u!4 &532278388 stripped
@@ -3762,6 +4056,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -3843,6 +4142,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 63604ffa829797541a1b80fbdf2dd245,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63604ffa829797541a1b80fbdf2dd245, type: 3}
 --- !u!4 &564243672 stripped
@@ -3917,6 +4221,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -3993,6 +4302,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (64)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &577919236 stripped
@@ -4067,6 +4381,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -4143,6 +4462,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &598373230 stripped
@@ -4218,6 +4542,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (81)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &622149317 stripped
@@ -4292,6 +4621,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill4
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 966c880680b9b684b9fd2e028d5302b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 966c880680b9b684b9fd2e028d5302b1, type: 3}
@@ -4383,6 +4717,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Bamboolamp_Set1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3, type: 3}
 --- !u!4 &649282322 stripped
@@ -4457,6 +4796,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -4548,6 +4892,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Bamboolamp_Set1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3, type: 3}
 --- !u!4 &686444644 stripped
@@ -4622,6 +4971,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -4698,6 +5052,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (71)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &716139600 stripped
@@ -4773,6 +5132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (103)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &744078491 stripped
@@ -4847,6 +5211,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -4938,6 +5307,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Bamboolamp_Set1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3, type: 3}
 --- !u!4 &761147458 stripped
@@ -4946,6 +5320,134 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 761147457}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &763431953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 763431955}
+  - component: {fileID: 763431954}
+  m_Layer: 0
+  m_Name: GameMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &763431954
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763431953}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: fcf0f57863d67fc4ab390729e6c32f6b, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 3
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &763431955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763431953}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 250.0508, y: -352.71967, z: 212.75838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &764318697
 GameObject:
   m_ObjectHideFlags: 0
@@ -5020,9 +5522,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1511765083}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &777302884
 PrefabInstance:
@@ -5111,6 +5614,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 29235bcbfe366ed46bd2f40c40560b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29235bcbfe366ed46bd2f40c40560b4e, type: 3}
 --- !u!4 &777302885 stripped
@@ -5185,6 +5693,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -5261,6 +5774,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &818459326 stripped
@@ -5335,6 +5853,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -5411,6 +5934,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &835034688 stripped
@@ -5486,6 +6014,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_RockSet3_Pile1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 682a85a61af54d74fa1d7c93e8f85e18,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 682a85a61af54d74fa1d7c93e8f85e18, type: 3}
 --- !u!4 &839289537 stripped
@@ -5560,6 +6093,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -5656,6 +6194,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 29235bcbfe366ed46bd2f40c40560b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29235bcbfe366ed46bd2f40c40560b4e, type: 3}
 --- !u!4 &862872381 stripped
@@ -5751,6 +6294,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 29235bcbfe366ed46bd2f40c40560b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29235bcbfe366ed46bd2f40c40560b4e, type: 3}
 --- !u!4 &869411275 stripped
@@ -5825,6 +6373,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -5901,6 +6454,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &898623349 stripped
@@ -5975,6 +6533,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -6056,6 +6619,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 63604ffa829797541a1b80fbdf2dd245,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63604ffa829797541a1b80fbdf2dd245, type: 3}
 --- !u!4 &899819212 stripped
@@ -6130,6 +6698,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -6206,6 +6779,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &938730475 stripped
@@ -6280,6 +6858,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04c4d8ff72bf678458b6b0d1ee3714fd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04c4d8ff72bf678458b6b0d1ee3714fd, type: 3}
@@ -6356,6 +6939,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (109)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &984758307 stripped
@@ -6430,6 +7018,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (113)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -6506,6 +7099,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (111)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1025728391 stripped
@@ -6580,6 +7178,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -6656,6 +7259,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1035181458 stripped
@@ -6730,6 +7338,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -6810,6 +7423,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_TreeSet1_Pile3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 63604ffa829797541a1b80fbdf2dd245,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63604ffa829797541a1b80fbdf2dd245, type: 3}
@@ -6906,6 +7524,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 29235bcbfe366ed46bd2f40c40560b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29235bcbfe366ed46bd2f40c40560b4e, type: 3}
 --- !u!4 &1046707994 stripped
@@ -6980,6 +7603,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -7056,6 +7684,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1061559291 stripped
@@ -7130,6 +7763,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -7226,6 +7864,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile5
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: db358dbf689d77849beffbcec07e9462,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db358dbf689d77849beffbcec07e9462, type: 3}
 --- !u!4 &1112072854 stripped
@@ -7301,6 +7944,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1129026665 stripped
@@ -7375,6 +8023,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_FireFX (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781153407400491, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781153833532114, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781154056776011, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9753f860076a70942b7417f548ddde2a, type: 3}
@@ -7539,6 +8202,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_FireFX (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6899781153407400491, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781153833532114, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781154056776011, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9753f860076a70942b7417f548ddde2a, type: 3}
 --- !u!4 &1131782488 stripped
@@ -7702,6 +8380,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1144657616 stripped
@@ -7776,6 +8459,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -7852,6 +8540,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (101)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1171633100 stripped
@@ -7926,6 +8619,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -8022,6 +8720,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile5 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: db358dbf689d77849beffbcec07e9462,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db358dbf689d77849beffbcec07e9462, type: 3}
 --- !u!4 &1192651049 stripped
@@ -8097,6 +8800,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1205954228 stripped
@@ -8171,6 +8879,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_FireFX (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781153407400491, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781153833532114, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781154056776011, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9753f860076a70942b7417f548ddde2a, type: 3}
@@ -8355,6 +9078,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 29235bcbfe366ed46bd2f40c40560b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29235bcbfe366ed46bd2f40c40560b4e, type: 3}
 --- !u!4 &1246240469 stripped
@@ -8429,6 +9157,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -8505,6 +9238,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1257118710 stripped
@@ -8579,6 +9317,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -8655,6 +9398,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1284789515 stripped
@@ -8729,6 +9477,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_FireFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781153407400491, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781153833532114, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781154056776011, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9753f860076a70942b7417f548ddde2a, type: 3}
@@ -8893,6 +9656,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_FireFX (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6899781153407400491, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781153833532114, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781154056776011, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9753f860076a70942b7417f548ddde2a, type: 3}
 --- !u!4 &1292271159 stripped
@@ -9056,6 +9834,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1299357778 stripped
@@ -9130,6 +9913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -9221,6 +10009,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Bamboolamp_Set1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3, type: 3}
 --- !u!4 &1307566387 stripped
@@ -9296,6 +10089,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1308326170 stripped
@@ -9370,6 +10168,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_FireFX (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781153407400491, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781153833532114, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781154056776011, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9753f860076a70942b7417f548ddde2a, type: 3}
@@ -9534,6 +10347,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (105)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1311372921 stripped
@@ -9608,6 +10426,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_RockSet3_Pile1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 682a85a61af54d74fa1d7c93e8f85e18,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 682a85a61af54d74fa1d7c93e8f85e18, type: 3}
@@ -9704,6 +10527,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 29235bcbfe366ed46bd2f40c40560b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29235bcbfe366ed46bd2f40c40560b4e, type: 3}
 --- !u!4 &1333283323 stripped
@@ -9778,6 +10606,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -9854,6 +10687,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (86)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1395052349 stripped
@@ -9928,6 +10766,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -10019,6 +10862,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Bamboolamp_Set1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3, type: 3}
 --- !u!4 &1406606355 stripped
@@ -10094,6 +10942,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (80)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1408862316 stripped
@@ -10168,6 +11021,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -10264,6 +11122,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile5 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: db358dbf689d77849beffbcec07e9462,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db358dbf689d77849beffbcec07e9462, type: 3}
 --- !u!4 &1411999855 stripped
@@ -10338,6 +11201,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill6 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 28d63cac84da5004cb3cf818cc2094d0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28d63cac84da5004cb3cf818cc2094d0, type: 3}
@@ -10414,6 +11282,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1413625411 stripped
@@ -10488,6 +11361,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -10564,6 +11442,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (46)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1427221063 stripped
@@ -10639,6 +11522,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (90)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1467977602 stripped
@@ -10713,6 +11601,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -10794,6 +11687,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 63604ffa829797541a1b80fbdf2dd245,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63604ffa829797541a1b80fbdf2dd245, type: 3}
 --- !u!4 &1501243628 stripped
@@ -10869,6 +11767,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (53)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1503485909 stripped
@@ -10886,12 +11789,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1511765083}
+  - component: {fileID: 1511765084}
   m_Layer: 0
   m_Name: object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1511765083
 Transform:
@@ -10900,7 +11804,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511765082}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 396.89548, y: 129.47801, z: 211.44531}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11074,9 +11978,23 @@ Transform:
   - {fileID: 1205954228}
   - {fileID: 1721704677}
   - {fileID: 2051823695}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 764318700}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1511765084
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511765082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &1554020076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11159,6 +12077,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Bamboolamp_Set1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cd6bec3a6ae7ad4088883ae6cf0fab3, type: 3}
 --- !u!4 &1554020077 stripped
@@ -11233,6 +12156,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -11309,6 +12237,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (99)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1579023031 stripped
@@ -11383,6 +12316,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -11459,6 +12397,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (42)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1608034608 stripped
@@ -11533,6 +12476,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_RockSet3_Pile1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 682a85a61af54d74fa1d7c93e8f85e18,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 682a85a61af54d74fa1d7c93e8f85e18, type: 3}
@@ -11609,6 +12557,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (104)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1629714849 stripped
@@ -11683,6 +12636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -11759,6 +12717,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1676152496 stripped
@@ -11833,6 +12796,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -11909,6 +12877,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (112)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1687579004 stripped
@@ -11984,6 +12957,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (78)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1702230033 stripped
@@ -12058,6 +13036,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -12154,6 +13137,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: db358dbf689d77849beffbcec07e9462,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db358dbf689d77849beffbcec07e9462, type: 3}
 --- !u!4 &1705546874 stripped
@@ -12228,6 +13216,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -12304,6 +13297,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill3
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04c4d8ff72bf678458b6b0d1ee3714fd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04c4d8ff72bf678458b6b0d1ee3714fd, type: 3}
 --- !u!4 &1721704677 stripped
@@ -12378,6 +13376,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -12454,6 +13457,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (62)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1765559692 stripped
@@ -12528,6 +13536,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_FireFX (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781153407400491, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781153833532114, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899781154056776011, guid: 9753f860076a70942b7417f548ddde2a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9753f860076a70942b7417f548ddde2a, type: 3}
@@ -12692,6 +13715,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (65)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1779542971 stripped
@@ -12766,6 +13794,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_RockSet3_Pile1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 682a85a61af54d74fa1d7c93e8f85e18,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 682a85a61af54d74fa1d7c93e8f85e18, type: 3}
@@ -12842,6 +13875,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1787539530 stripped
@@ -12916,6 +13954,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -13012,6 +14055,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_TreeSet1_Pile1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 29235bcbfe366ed46bd2f40c40560b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29235bcbfe366ed46bd2f40c40560b4e, type: 3}
 --- !u!4 &1809993913 stripped
@@ -13086,6 +14134,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -13162,6 +14215,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1820217618 stripped
@@ -13236,6 +14294,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -13312,6 +14375,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (93)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1881816745 stripped
@@ -13386,6 +14454,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -13462,6 +14535,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (110)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1918613677 stripped
@@ -13536,6 +14614,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -13612,6 +14695,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1955110836 stripped
@@ -13686,6 +14774,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -13762,6 +14855,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (89)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &1979790521 stripped
@@ -13836,6 +14934,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -13912,6 +15015,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &2009948252 stripped
@@ -13986,6 +15094,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
@@ -14062,6 +15175,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
 --- !u!4 &2023235878 stripped
@@ -14136,6 +15254,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill6 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 28d63cac84da5004cb3cf818cc2094d0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28d63cac84da5004cb3cf818cc2094d0, type: 3}
@@ -14226,6 +15349,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_mountainset2_hill2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 94561dd00b778b342a121e47d76917c0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94561dd00b778b342a121e47d76917c0, type: 3}
@@ -14321,6 +15449,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_TreeSet1_Pile1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 29235bcbfe366ed46bd2f40c40560b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29235bcbfe366ed46bd2f40c40560b4e, type: 3}
@@ -14514,6 +15647,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PA_Mountainset1_hill5 (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7a260bca1a34194ebcc80e76490a649,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a260bca1a34194ebcc80e76490a649, type: 3}
