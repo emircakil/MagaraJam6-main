@@ -1,15 +1,28 @@
+using System;
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class AudioScript : MonoBehaviour
 {
     public List<AudioClip> soundList;
     private AudioSource audioSource;
+    private int currentScene;
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+        currentScene = SceneManager.sceneCount;
+    }
 
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        PlayAndRemoveFirstSound();
+    }
+
+    private void Update()
+    {
+        if(currentScene==SceneManager.sceneCount)
+            PlayAndRemoveFirstSound();
     }
 
     void PlayAndRemoveFirstSound()
@@ -22,6 +35,7 @@ public class AudioScript : MonoBehaviour
 
             // İlk elemanı listeden sil
             soundList.RemoveAt(0);
+            currentScene++;
         }
         else
         {

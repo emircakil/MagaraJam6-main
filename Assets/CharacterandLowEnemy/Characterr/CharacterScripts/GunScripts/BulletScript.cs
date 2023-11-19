@@ -1,12 +1,19 @@
+using System;
 using UnityEngine;
 
 namespace CharacterandLowEnemy.Characterr.CharacterScripts.GunScripts
 {
     public class BulletScript : MonoBehaviour
     {
+        public static BulletScript instance;
         [SerializeField] private float speed = 10f; // Mermi hızı
         [SerializeField] private float lifeTime = 5f; // Mermi maksimum menzil
-        [SerializeField] private float bulletDamage = 2f;// Mermi hasarı
+        public float bulletDamage = 2f;// Mermi hasarı
+
+        private void Awake()
+        {
+            instance = this;
+        }
 
         void Update()
         {

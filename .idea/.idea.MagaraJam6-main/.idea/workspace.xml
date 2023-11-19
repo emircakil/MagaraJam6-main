@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51021625-958c-4950-9a58-4ce712ce2f67" name="Changes" comment="" />
+    <list default="true" id="51021625-958c-4950-9a58-4ce712ce2f67" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MagaraJam6-main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MagaraJam6-main/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CharacterandLowEnemy/Characterr/CharacterScripts/CharacterHealt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterandLowEnemy/Characterr/CharacterScripts/CharacterHealt.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CharacterandLowEnemy/Characterr/CharacterScripts/GunScripts/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterandLowEnemy/Characterr/CharacterScripts/GunScripts/BulletScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CharacterandLowEnemy/Characterr/Prefab/bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterandLowEnemy/Characterr/Prefab/bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyFPSLite/LowPolyFPSLite_2021.3.0_HDRP_v1.0.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyFPSLite/LowPolyFPSLite_2021.3.0_URP_v1.0.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/kibirscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/kibirscene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/kibirscene/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/kibirscene/NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/kibirscene/NavMesh.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/kibirscene/NavMesh.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Third-Party/MainRoom/Materials/Console_Screen_001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Third-Party/MainRoom/Materials/Console_Screen_001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Third-Party/MainRoom/Materials/Door_Glass_001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Third-Party/MainRoom/Materials/Door_Glass_001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Third-Party/MainRoom/Materials/Pod_002.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Third-Party/MainRoom/Materials/Pod_002.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Third-Party/MainRoom/Materials/WindowGlass_001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Third-Party/MainRoom/Materials/WindowGlass_001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Third-Party/RobotSphere/Assets/Models/Materials/visor_matAi.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Third-Party/RobotSphere/Assets/Models/Materials/visor_matAi.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/export/AudioScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/export/AudioScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/me/boss/Boss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/me/boss/Boss.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/me/boss/BossEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/me/boss/BossEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/me/boss/bosscontroller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/me/boss/bosscontroller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/me/boss/mixamo.com.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/me/boss/mixamo.com.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sahne/demo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sahne/demo.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,25 +43,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\doguk\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\doguk\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\doguk\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\doguk\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\doguk\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\doguk\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe" />
@@ -84,6 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700172439165</updated>
       <workItem from="1700172442290" duration="13222000" />
+      <workItem from="1700401869315" duration="1846000" />
     </task>
     <servers />
   </component>

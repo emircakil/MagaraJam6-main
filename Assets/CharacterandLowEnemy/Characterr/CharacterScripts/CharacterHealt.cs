@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace CharacterandLowEnemy.Characterr.CharacterScripts
 {
@@ -26,6 +28,13 @@ namespace CharacterandLowEnemy.Characterr.CharacterScripts
 
         }
 
+        private void Update()
+        {
+            if (PlayerPrefs.GetInt("Healt")<=0)
+            {
+                SceneManager.LoadScene(1);
+            }
+        }
 
         private IEnumerator IncreaseHealthOverTime(float interval, int amount)
         {
@@ -51,7 +60,7 @@ namespace CharacterandLowEnemy.Characterr.CharacterScripts
         {
             healt -= damage;
             PlayerPrefs.SetInt("Healt", healt);
-            Debug.Log(healt);
+            
             if (PlayerPrefs.GetInt("Healt") <= 30)
             {
                 _qVignetteSplit.mainScale = 1f;

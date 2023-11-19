@@ -1,11 +1,10 @@
 using CharacterandLowEnemy.Characterr.CharacterScripts;
 using CharacterandLowEnemy.Characterr.CharacterScripts.GunScripts;
-using Unity.Mathematics;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 
-namespace character.CameraScript.LowEnemy.EnemyScripts
+
+namespace me.boss
 {
     public class BossEnemy : MonoBehaviour
     {
@@ -18,7 +17,6 @@ namespace character.CameraScript.LowEnemy.EnemyScripts
         [SerializeField] private int maxHealth = 100;
         private float currentHealth;
         [SerializeField] private AudioSource _audioSource;
-        [SerializeField] private GameObject _prefab;
         private void Start()
         {
             _agent = GetComponent<NavMeshAgent>();
@@ -43,13 +41,9 @@ namespace character.CameraScript.LowEnemy.EnemyScripts
 
         private void SetAnimationsValue()
         {
-            _animator.SetFloat("Speed", _rigidbody.velocity.magnitude);
-            _animator.SetFloat("Attack", distance.magnitude);
+            _animator.SetFloat("BossSpeed", _rigidbody.velocity.magnitude);
+            _animator.SetFloat("BossAttack", distance.magnitude);
         }
-     
-     
-
-
 
         private void Following()
         {
@@ -65,9 +59,7 @@ namespace character.CameraScript.LowEnemy.EnemyScripts
             Debug.Log("Hasaer Verildii");
             if (other.gameObject.CompareTag("Bullet"))
             {
-               TakeDamage(BulletScript.instance.bulletDamage);
-
-
+                TakeDamage(BulletScript.instance.bulletDamage);
             }
         }
         private void TakeDamage(float damage)
@@ -78,10 +70,6 @@ namespace character.CameraScript.LowEnemy.EnemyScripts
         {
 
             _animator.SetTrigger("dead");
-            if(_prefab != null)
-            {
-                Instantiate(_prefab,transform.position,transform.rotation);
-            }
             Destroy(gameObject,5f);
         }
         //Animation Event
