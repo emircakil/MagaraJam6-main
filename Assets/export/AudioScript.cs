@@ -8,10 +8,21 @@ public class AudioScript : MonoBehaviour
     public List<AudioClip> soundList;
     private AudioSource audioSource;
     private int currentScene;
-    private void Awake()
+    private static bool created = false;
+
+    void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
-        currentScene = SceneManager.sceneCount;
+        if (!created)
+        {
+            // Eğer bu nesne daha önce oluşturulmadıysa, işlemi gerçekleştir.
+            DontDestroyOnLoad(this.gameObject);
+            created = true;
+        }
+        else
+        {
+            // Eğer bu nesne zaten oluşturulduysa, tekrar oluşturulmasını engelle ve bu nesneyi yok et.
+            Destroy(this.gameObject);
+        }
     }
 
     void Start()
