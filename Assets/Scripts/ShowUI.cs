@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class ShowUI : MonoBehaviour
 {
@@ -20,9 +21,17 @@ public class ShowUI : MonoBehaviour
         if (other.CompareTag("Player") && itHasKey){
         
             uiObject.SetActive(true);
-            
+
+
         }
 
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("Player") && itHasKey) {
+
+        }
     }
 
     private void Update()
@@ -34,7 +43,7 @@ public class ShowUI : MonoBehaviour
             if (Keyboard.current.eKey.IsPressed())
             {
 
-                Destroy(uiObject);
+                SceneManager.LoadScene("mainScene");
             }
         }
 
