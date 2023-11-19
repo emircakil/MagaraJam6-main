@@ -1,3 +1,5 @@
+using CharacterandLowEnemy.Characterr.CharacterScripts;
+using CharacterandLowEnemy.Characterr.CharacterScripts.GunScripts;
 using Unity.Mathematics;
 using UnityEditor;
 using UnityEngine;
@@ -36,7 +38,6 @@ namespace character.CameraScript.LowEnemy.EnemyScripts
 
             Following();
             SetAnimationsValue();
-            currentHealth -= Time.deltaTime*10;
             Debug.Log(currentHealth);
         }
 
@@ -45,6 +46,10 @@ namespace character.CameraScript.LowEnemy.EnemyScripts
             _animator.SetFloat("Speed", _rigidbody.velocity.magnitude);
             _animator.SetFloat("Attack", distance.magnitude);
         }
+     
+     
+
+
 
         private void Following()
         {
@@ -57,13 +62,15 @@ namespace character.CameraScript.LowEnemy.EnemyScripts
 
         private void OnTriggerEnter(Collider other)
         {
+            Debug.Log("Hasaer Verildii");
             if (other.gameObject.CompareTag("Bullet"))
             {
-                TakeDamage(5);
+               TakeDamage(BulletScript.instance.bulletDamage);
+
 
             }
         }
-        private void TakeDamage(int damage)
+        private void TakeDamage(float damage)
         {
             currentHealth -= damage;
         }
@@ -80,7 +87,7 @@ namespace character.CameraScript.LowEnemy.EnemyScripts
         //Animation Event
         public void Punch()
         {
-          //  Debug.Log("Hasar Ver");
+            CharacterHealt._instance.SetHealt(40);
         }
         public void audioController()
         {

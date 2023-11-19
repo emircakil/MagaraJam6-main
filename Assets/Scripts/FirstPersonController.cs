@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using CharacterandLowEnemy.Characterr.CharacterScripts.GunScripts;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
 #endif
@@ -72,6 +73,10 @@ namespace StarterAssets
 		private StarterAssetsInputs _input;
 		private GameObject _mainCamera;
 
+		public float nextFireTime = 0f; // Bir sonraki ateş zamanı
+		public float fireRate = 0.5f; // Ateş etme hızı
+		private bool isFire;
+
 		private const float _threshold = 0.01f;
 
 		private bool IsCurrentDeviceMouse
@@ -109,12 +114,13 @@ namespace StarterAssets
 			_jumpTimeoutDelta = JumpTimeout;
 			_fallTimeoutDelta = FallTimeout;
 		}
-
+		
 		private void Update()
 		{
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
+			GunFire();
 		}
 
 		private void LateUpdate()
@@ -246,6 +252,22 @@ namespace StarterAssets
 			}
 		}
 
+		private void GunFire()
+		{
+			if (Mouse.current.leftButton.ReadValue()>0)
+			{
+				isFire = true;
+			}else if (Mouse.current.leftButton.ReadValue()<=0)
+			{
+				isFire = false;
+			}
+			if (isFire && Time.time > nextFireTime)
+			{
+				GunScript.İnstance.Fire();
+				nextFireTime = Time.time + 1f / fireRate;
+			}		
+		}
+		
 		private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
 		{
 			if (lfAngle < -360f) lfAngle += 360f;

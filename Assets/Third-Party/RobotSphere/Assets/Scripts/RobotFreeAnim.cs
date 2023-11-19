@@ -1,96 +1,76 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.AI;
-using UnityEngine.InputSystem;
 
-public class RobotFreeAnim : MonoBehaviour
-{
+public class RobotFreeAnim : MonoBehaviour {
 
-
+	Vector3 rot = Vector3.zero;
+	float rotSpeed = 40f;
 	Animator anim;
-	[SerializeField] Transform player;
-	[SerializeField] NavMeshAgent robot;
-	[SerializeField] Rigidbody rb;
 
 	// Use this for initialization
 	void Awake()
 	{
 		anim = gameObject.GetComponent<Animator>();
-		//  gameObject.transform.eulerAngles = player.position;
-
+		gameObject.transform.eulerAngles = rot;
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-
-		if (!anim.GetCurrentAnimatorStateInfo(0).IsName("anim_open"))
-		{
-			CheckKey();
-			//	gameObject.transform.eulerAngles = player.position;
-
-			gameObject.transform.LookAt(player.position);
-
-			robot.SetDestination(player.position);
-		}
-
-		void CheckKey()
-		{
-			// Walk
-			float speed = rb.velocity.magnitude;
-			anim.SetFloat("Speedd", speed);
-
-			var distance = rb.position.magnitude - player.position.magnitude;
-
-
-		
-
-			/*
-            if (Keyboard.current.wKey.IsPressed() ||
-                Keyboard.current.aKey.IsPressed() ||
-                Keyboard.current.dKey.IsPressed() ||
-                Keyboard.current.sKey.IsPressed())
-
-
-            {
-                anim.SetBool("Walk_Anim", true);
-            }
-            else 
-            {
-                anim.SetBool("Walk_Anim", false);
-            }
-
-            */
-
-			// Roll
-			if (Keyboard.current.shiftKey.IsPressed())
-			{
-				if (anim.GetBool("Roll_Anim"))
-				{
-					anim.SetBool("Roll_Anim", false);
-				}
-				else
-				{
-					anim.SetBool("Roll_Anim", true);
-				}
-			}
-
-			// Close
-
-			if (Keyboard.current.ctrlKey.IsPressed())
-			{
-				if (!anim.GetBool("Open_Anim"))
-				{
-					anim.SetBool("Open_Anim", true);
-				}
-				else
-				{
-					anim.SetBool("Open_Anim", false);
-				}
-			}
-		}
-
+		CheckKey();
+		gameObject.transform.eulerAngles = rot;
 	}
+
+	void CheckKey()
+	{
+		// Walk
+		if (Input.GetKey(KeyCode.W))
+		{
+			anim.SetBool("Walk_Anim", true);
+		}
+		else if (Input.GetKeyUp(KeyCode.W))
+		{
+			anim.SetBool("Walk_Anim", false);
+		}
+
+		// Rotate Left
+		if (Input.GetKey(KeyCode.A))
+		{
+			rot[1] -= rotSpeed * Time.fixedDeltaTime;
+		}
+
+		// Rotate Right
+		if (Input.GetKey(KeyCode.D))
+		{
+			rot[1] += rotSpeed * Time.fixedDeltaTime;
+		}
+
+		// Roll
+		if (Input.GetKeyDown(KeyCode.Space))
+		{
+			if (anim.GetBool("Roll_Anim"))
+			{
+				anim.SetBool("Roll_Anim", false);
+			}
+			else
+			{
+				anim.SetBool("Roll_Anim", true);
+			}
+		}
+
+		// Close
+		if (Input.GetKeyDown(KeyCode.LeftControl))
+		{
+			if (!anim.GetBool("Open_Anim"))
+			{
+				anim.SetBool("Open_Anim", true);
+			}
+			else
+			{
+				anim.SetBool("Open_Anim", false);
+			}
+		}
+	}
+
 }
