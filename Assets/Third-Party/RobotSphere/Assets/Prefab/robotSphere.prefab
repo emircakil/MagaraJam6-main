@@ -2611,6 +2611,7 @@ GameObject:
   - component: {fileID: 95320324289322388}
   - component: {fileID: 8924717824031195086}
   - component: {fileID: 997454885}
+  - component: {fileID: 5066856443076022000}
   - component: {fileID: 997454879}
   m_Layer: 0
   m_Name: robotSphere
@@ -2699,6 +2700,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5066856443076022000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528915638184230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b702c3c0588af04b8c49e9341d5f9db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiObject: {fileID: 0}
+  coll: {fileID: 0}
 --- !u!195 &997454879
 NavMeshAgent:
   m_ObjectHideFlags: 0
