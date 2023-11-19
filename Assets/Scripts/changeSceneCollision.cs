@@ -11,7 +11,7 @@ public class changeSceneCollision : MonoBehaviour
 
         if (other.CompareTag("Player"))
             { 
-               
+            Destroy(gameObject);
             SceneManager.LoadScene(sceneName);
 
             }
