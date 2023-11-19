@@ -1,23 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.InputSystem;
 
-public class RobotFreeAnim : MonoBehaviour {
+public class RobotFreeAnim : MonoBehaviour
+{
 
-	
+
 	Animator anim;
 	[SerializeField] Transform player;
-    [SerializeField] NavMeshAgent robot;
+	[SerializeField] NavMeshAgent robot;
+	[SerializeField] Rigidbody rb;
 
-    // Use this for initialization
-    void Awake()
+	// Use this for initialization
+	void Awake()
 	{
 		anim = gameObject.GetComponent<Animator>();
-      //  gameObject.transform.eulerAngles = player.position;
+		//  gameObject.transform.eulerAngles = player.position;
 
-    }
+	}
 
 	// Update is called once per frame
 	void Update()
@@ -32,54 +35,62 @@ public class RobotFreeAnim : MonoBehaviour {
 
 			robot.SetDestination(player.position);
 		}
-    }
 
-	void CheckKey()
-	{
-		// Walk
-	
-		if (Keyboard.current.wKey.IsPressed() ||
-			Keyboard.current.aKey.IsPressed() ||
-			Keyboard.current.dKey.IsPressed() ||
-            Keyboard.current.sKey.IsPressed())
-
-
-        {
-            anim.SetBool("Walk_Anim", true);
-		}
-		else 
+		void CheckKey()
 		{
-			anim.SetBool("Walk_Anim", false);
-		}
+			// Walk
+			float speed = rb.velocity.magnitude;
+			anim.SetFloat("Speedd", speed);
+
+			var distance = rb.position.magnitude - player.position.magnitude;
+
 
 		
 
-		// Roll
-		if (Keyboard.current.shiftKey.IsPressed())
-		{
-			if (anim.GetBool("Roll_Anim"))
+			/*
+            if (Keyboard.current.wKey.IsPressed() ||
+                Keyboard.current.aKey.IsPressed() ||
+                Keyboard.current.dKey.IsPressed() ||
+                Keyboard.current.sKey.IsPressed())
+
+
+            {
+                anim.SetBool("Walk_Anim", true);
+            }
+            else 
+            {
+                anim.SetBool("Walk_Anim", false);
+            }
+
+            */
+
+			// Roll
+			if (Keyboard.current.shiftKey.IsPressed())
 			{
-				anim.SetBool("Roll_Anim", false);
+				if (anim.GetBool("Roll_Anim"))
+				{
+					anim.SetBool("Roll_Anim", false);
+				}
+				else
+				{
+					anim.SetBool("Roll_Anim", true);
+				}
 			}
-			else
+
+			// Close
+
+			if (Keyboard.current.ctrlKey.IsPressed())
 			{
-				anim.SetBool("Roll_Anim", true);
+				if (!anim.GetBool("Open_Anim"))
+				{
+					anim.SetBool("Open_Anim", true);
+				}
+				else
+				{
+					anim.SetBool("Open_Anim", false);
+				}
 			}
 		}
 
-		// Close
-			
-		if (Keyboard.current.ctrlKey.IsPressed())
-		{
-			if (!anim.GetBool("Open_Anim"))
-			{
-				anim.SetBool("Open_Anim", true);
-			}
-			else
-			{
-				anim.SetBool("Open_Anim", false);
-			}
-		}
 	}
-
 }
